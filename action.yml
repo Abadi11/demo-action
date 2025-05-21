@@ -4,12 +4,12 @@ description: 'Greet someone and record the time'
 
 inputs:
   name:
-  description: 'Name to be greeted'
-  default: 'Abadi Salman'
+    description: 'Name to be greeted'
+    default: 'Abadi Salman'
 
 outputs:
   greeting:
-  description: 'How we greeted you'
+    description: 'How we greeted you'
 
 runs:
   using: 'node20'
